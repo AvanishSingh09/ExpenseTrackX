@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL: 'http://localhost:8081/api',
+    baseURL: 'https://expensetrackx.onrender.com/api',
 });
 
 // Add a request interceptor to include the JWT token
